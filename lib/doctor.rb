@@ -23,6 +23,6 @@ class Doctor
   end
 
   def patients
-    
+    Appointment.collect {|appointment|appointment.patient}
   end
 end
