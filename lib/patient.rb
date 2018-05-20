@@ -9,7 +9,7 @@ class Patient
   end
 
   def new_appointment(date, doctor)
-binding.pry
+# binding.pry
     Appointment.new(self, date, doctor)
   end
 
