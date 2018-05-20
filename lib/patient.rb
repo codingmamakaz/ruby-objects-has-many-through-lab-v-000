@@ -2,7 +2,7 @@ require'pry'
 
 class Patient
 
-  attr_accessor :name, :doctor, :appointment
+  attr_accessor :name, :doctor, :appointment, :patient
 
   def initialize(name)
     @name = name
