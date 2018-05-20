@@ -15,4 +15,3 @@ class Appointment
   end
 
 end
-
