@@ -1,4 +1,4 @@
-require'pry'
+
 
 class Patient
 
@@ -9,7 +9,6 @@ class Patient
   end
 
   def new_appointment(date, doctor)
-# binding.pry
     Appointment.new(self, date, doctor)
   end
 
